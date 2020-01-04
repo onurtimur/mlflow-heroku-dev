@@ -7,7 +7,7 @@ $ git clone https://github.com/onurtimur/mlflow-heroku-dev.git
 $ cd mlflow-heroku-dev
 $ export PORT=5000
 $ docker build -t mlflow . && docker run -p ${PORT}:${PORT} mlflow
-# visit the MLflow UI via http://0.0.0.0:5000```
+# visit the MLflow UI via http://0.0.0.0:5000
 ```
 </details>
 
